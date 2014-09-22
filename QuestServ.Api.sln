@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestServ.WebAPI", "QuestServ.WebAPI\QuestServ.WebAPI.csproj", "{D9272460-C67A-411A-B5D5-8CBDE3EC89A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestServ.WebAPI.Tests", "QuestServ.WebAPI.Tests\QuestServ.WebAPI.Tests.csproj", "{ADB165BD-9354-42F1-AAD7-3978B2477A6B}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "QuestServ.DB", "QuestServ.DB\QuestServ.DB.sqlproj", "{52641B96-CB21-4749-A8B9-81D8FEFE4502}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9272460-C67A-411A-B5D5-8CBDE3EC89A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9272460-C67A-411A-B5D5-8CBDE3EC89A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9272460-C67A-411A-B5D5-8CBDE3EC89A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9272460-C67A-411A-B5D5-8CBDE3EC89A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADB165BD-9354-42F1-AAD7-3978B2477A6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADB165BD-9354-42F1-AAD7-3978B2477A6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADB165BD-9354-42F1-AAD7-3978B2477A6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADB165BD-9354-42F1-AAD7-3978B2477A6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52641B96-CB21-4749-A8B9-81D8FEFE4502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52641B96-CB21-4749-A8B9-81D8FEFE4502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52641B96-CB21-4749-A8B9-81D8FEFE4502}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{52641B96-CB21-4749-A8B9-81D8FEFE4502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52641B96-CB21-4749-A8B9-81D8FEFE4502}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52641B96-CB21-4749-A8B9-81D8FEFE4502}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
