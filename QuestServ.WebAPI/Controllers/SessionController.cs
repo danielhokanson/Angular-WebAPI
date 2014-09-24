@@ -7,12 +7,12 @@ using System.Web.Http;
 
 namespace QuestServ.WebAPI.Controllers
 {
-    public class SessionController : ApiController
+    public class SessionController : BaseController
     {
+        [AcceptVerbs("Get")]
         public void GetSession()
         {
-            Request.Headers
-            Guid sessionGuid = 
+            base.NewSession();
         }
     }
 }

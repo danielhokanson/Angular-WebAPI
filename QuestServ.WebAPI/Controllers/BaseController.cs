@@ -61,10 +61,11 @@ namespace QuestServ.WebAPI.Controllers
             Guid newGuid = Guid.NewGuid();
             Response.Cookies.Add(new HttpCookie(CONST_SESSIONCOOKIEKEY, newGuid.ToString()));
             Session session = new Session();
-            session.IPAddress = Req.UserHostAddress;
-            session.UserAgent = Req.UserAgent;
+            session.IPAddress = Req.UserHostAddress;//User IP Address
+            session.UserAgent = Req.UserAgent;//Basic information about User Browser and environment
             session.LastAccessed = DateTime.UtcNow;
-            Cache.Add(new CacheItem(newGuid.ToString(), session), new CacheItemPolicy() { AbsoluteExpiration = new DateTimeOffset(DateTime.UtcNow, new TimeSpan(15000)) });
+            Cache.Add(new CacheItem(newGuid.ToString(), session), new CacheItemPolicy() { AbsoluteExpiration = new DateTimeOffset(DateTime.UtcNow, new TimeSpan(900000)) });//expires at 15 minutes
         }
+        protected void GetUser() { }
     }
 }
