@@ -12,7 +12,11 @@ namespace QuestServ.WebAPI.Controllers
         [AcceptVerbs("Get")]
         public void GetSession()
         {
-            base.NewSession();
+            
+            if (base.CurrentSession == null)
+            {
+                base.NewSession();
+            }
         }
     }
 }

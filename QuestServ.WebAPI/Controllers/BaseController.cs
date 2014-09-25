@@ -64,7 +64,7 @@ namespace QuestServ.WebAPI.Controllers
             session.IPAddress = Req.UserHostAddress;//User IP Address
             session.UserAgent = Req.UserAgent;//Basic information about User Browser and environment
             session.LastAccessed = DateTime.UtcNow;
-            Cache.Add(new CacheItem(newGuid.ToString(), session), new CacheItemPolicy() { AbsoluteExpiration = new DateTimeOffset(DateTime.UtcNow, new TimeSpan(900000)) });//expires at 15 minutes
+            Cache.Add(new CacheItem(newGuid.ToString(), session), new CacheItemPolicy() { AbsoluteExpiration = DateTime.UtcNow.AddMinutes(15) });//expires at 15 minutes
         }
         protected void GetUser() { }
     }
