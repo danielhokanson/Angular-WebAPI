@@ -70,5 +70,13 @@
     <Build Include="dbo\Tables\User.sql" />
     <Build Include="dbo\Functions\isAttemptLocked.sql" />
     <Build Include="dbo\Stored Procedures\UserRegister.sql" />
+    <Build Include="dbo\Functions\Hash.sql" />
+    <Build Include="dbo\Stored Procedures\UserLogin.sql" />
+    <Build Include="dbo\Tables\UserSession.sql" />
+    <Build Include="dbo\Stored Procedures\ClearExpiredSession.sql" />
+    <Build Include="dbo\Tables\UserSessionArchive.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="QuestServ.DB.refactorlog" />
   </ItemGroup>
 </Project>
