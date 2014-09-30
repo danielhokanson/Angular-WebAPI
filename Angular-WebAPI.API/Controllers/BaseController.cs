@@ -15,7 +15,6 @@ namespace QuestServ.WebAPI.Controllers
 {
     public abstract class BaseController : ApiController
     {
-        private static MemoryCache _cache;
         private static MemoryCache Cache
         {
             get
