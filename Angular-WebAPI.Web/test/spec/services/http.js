@@ -3,7 +3,7 @@
 describe('Service: http', function () {
 
   // load the service's module
-  beforeEach(module('questServwebApp'));
+  beforeEach(module('angular-webapi'));
 
   // instantiate service
   var http;

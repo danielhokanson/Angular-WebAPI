@@ -1,7 +1,7 @@
 'use strict';
 
 angular
-  .module('questServwebApp', [
+  .module('angular-webapi', [
     'ngCookies',
     'ngResource',
     'ngSanitize'

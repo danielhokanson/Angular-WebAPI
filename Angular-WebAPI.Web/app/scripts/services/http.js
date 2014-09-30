@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('questServwebApp')
+angular.module('angular-webapi')
   .service('httpSvc', function httpSvc($q, $http, $cookies) {
       var self = this;
       var _sessionGenerated = $q.defer();

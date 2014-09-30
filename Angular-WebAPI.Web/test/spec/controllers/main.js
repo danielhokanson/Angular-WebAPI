@@ -3,7 +3,7 @@
 describe('Controller: MainCtrl', function () {
 
   // load the controller's module
-  beforeEach(module('questServwebApp'));
+  beforeEach(module('angular-webapi'));
 
   var MainCtrl,
     scope;
