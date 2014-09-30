@@ -2,7 +2,7 @@
 	@email NVARCHAR(255),
 	@password NVARCHAR(255)
 AS
-	DECLARE @userId BIGINT = (SELECT ID FROM [User] WHERE email = @email)
+	DECLARE @userId BIGINT = (SELECT ID FROM [User] WHERE Email = @email)
 
 	INSERT INTO Activity(StartDate, EndDate)
 	SELECT GETUTCDATE(), GETUTCDATE()
@@ -13,7 +13,7 @@ AS
 	SELECT @loginFailed = 0 FROM [User]
 	WHERE IsAttemptLocked = 0
 	AND Id = @userId
-	AND Password = dbo.[HASH](@email, @password)
+	AND Password = dbo.[Hash](@email, @password)
 
 	INSERT INTO UserLoginActivityIX(UserId, ActivityId, isFailure)
 	VALUES(@userId, @ActivityId, @loginFailed)
