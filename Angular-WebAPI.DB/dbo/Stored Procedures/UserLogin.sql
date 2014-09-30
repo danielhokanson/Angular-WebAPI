@@ -2,7 +2,7 @@
 	@email NVARCHAR(255),
 	@password NVARCHAR(255)
 AS
-	DECLARE @userId BIGINT = (SELECT ID FROM [User] WHERE Email = @email)
+	DECLARE @userId BIGINT = (SELECT Id FROM [User] WHERE Email = @email)
 
 	INSERT INTO Activity(StartDate, EndDate)
 	SELECT GETUTCDATE(), GETUTCDATE()

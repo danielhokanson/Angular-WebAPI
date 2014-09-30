@@ -12,8 +12,8 @@
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
-    <RootNamespace>Angular-WebAPI.DB</RootNamespace>
-    <AssemblyName>Angular-WebAPI.DB</AssemblyName>
+    <RootNamespace>AngularWebAPI.DB</RootNamespace>
+    <AssemblyName>AngularWebAPI.DB</AssemblyName>
     <ModelCollation>1033,CI</ModelCollation>
     <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
     <DeployToDatabase>True</DeployToDatabase>
