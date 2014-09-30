@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace QuestServ.WebAPI.Object
+namespace AngularWebAPI.API.Object
 {
     public class Session
     {

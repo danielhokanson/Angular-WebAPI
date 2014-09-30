@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Http;
 using System.Web.Routing;
 
-namespace QuestServ.WebAPI
+namespace AngularWebAPI.API
 {
     public class WebApiApplication : System.Web.HttpApplication
     {

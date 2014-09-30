@@ -5,7 +5,7 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 
-namespace QuestServ.WebAPI.Controllers
+namespace AngularWebAPI.API.Controllers
 {
     public class UserController : ApiController
     {

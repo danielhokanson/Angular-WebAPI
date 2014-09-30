@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
 
-namespace QuestServ.WebAPI
+namespace AngularWebAPI.API
 {
     public static class WebApiConfig
     {
