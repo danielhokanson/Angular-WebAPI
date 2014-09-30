@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angular-WebAPI.API.Tests", 
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Angular-WebAPI.DB", "Angular-WebAPI.DB\Angular-WebAPI.DB.sqlproj", "{52641B96-CB21-4749-A8B9-81D8FEFE4502}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "QuestServ.Web(1)", "http://localhost:49586", "{34C8253A-7937-40C6-9E95-B57255815287}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Angular-WebAPI.Web", "http://localhost:49586", "{34C8253A-7937-40C6-9E95-B57255815287}"
 	ProjectSection(WebsiteProperties) = preProject
 		UseIISExpress = "true"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
