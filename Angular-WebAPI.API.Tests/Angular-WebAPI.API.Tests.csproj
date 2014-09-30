@@ -6,8 +6,8 @@
     <ProjectGuid>{ADB165BD-9354-42F1-AAD7-3978B2477A6B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>QuestServ.WebAPI.Tests</RootNamespace>
-    <AssemblyName>QuestServ.WebAPI.Tests</AssemblyName>
+    <RootNamespace>Angular-WebAPI.API.Tests</RootNamespace>
+    <AssemblyName>Angular-WebAPI.API.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -79,9 +79,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\QuestServ.WebAPI\QuestServ.WebAPI.csproj">
+    <ProjectReference Include="..\Angular-WebAPI.API\Angular-WebAPI.API.csproj">
       <Project>{D9272460-C67A-411A-B5D5-8CBDE3EC89A9}</Project>
-      <Name>QuestServ.WebAPI</Name>
+      <Name>Angular-WebAPI.API</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

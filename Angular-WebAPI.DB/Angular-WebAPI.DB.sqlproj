@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <Name>QuestServ.DB</Name>
+    <Name>Angular-WebAPI.DB</Name>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
     <ProjectGuid>{52641b96-cb21-4749-a8b9-81d8fefe4502}</ProjectGuid>
@@ -12,8 +12,8 @@
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
-    <RootNamespace>QuestServ.DB</RootNamespace>
-    <AssemblyName>QuestServ.DB</AssemblyName>
+    <RootNamespace>Angular-WebAPI.DB</RootNamespace>
+    <AssemblyName>Angular-WebAPI.DB</AssemblyName>
     <ModelCollation>1033,CI</ModelCollation>
     <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
     <DeployToDatabase>True</DeployToDatabase>
@@ -25,6 +25,7 @@
     <TargetDatabaseSet>True</TargetDatabaseSet>
     <DefaultCollation>SQL_Latin1_General_CP1_CI_AS</DefaultCollation>
     <DefaultFilegroup>PRIMARY</DefaultFilegroup>
+    <TargetDatabase>Angular-WebAPI.DB</TargetDatabase>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <OutputPath>bin\Release\</OutputPath>
@@ -77,6 +78,6 @@
     <Build Include="dbo\Tables\UserSessionArchive.sql" />
   </ItemGroup>
   <ItemGroup>
-    <RefactorLog Include="QuestServ.DB.refactorlog" />
+    <RefactorLog Include="Angular-WebAPI.DB.refactorlog" />
   </ItemGroup>
 </Project>

@@ -1,33 +1,33 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestServ.WebAPI", "QuestServ.WebAPI\QuestServ.WebAPI.csproj", "{D9272460-C67A-411A-B5D5-8CBDE3EC89A9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angular-WebAPI.API", "Angular-WebAPI.API\Angular-WebAPI.API.csproj", "{D9272460-C67A-411A-B5D5-8CBDE3EC89A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestServ.WebAPI.Tests", "QuestServ.WebAPI.Tests\QuestServ.WebAPI.Tests.csproj", "{ADB165BD-9354-42F1-AAD7-3978B2477A6B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angular-WebAPI.API.Tests", "Angular-WebAPI.API.Tests\Angular-WebAPI.API.Tests.csproj", "{ADB165BD-9354-42F1-AAD7-3978B2477A6B}"
 EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "QuestServ.DB", "QuestServ.DB\QuestServ.DB.sqlproj", "{52641B96-CB21-4749-A8B9-81D8FEFE4502}"
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Angular-WebAPI.DB", "Angular-WebAPI.DB\Angular-WebAPI.DB.sqlproj", "{52641B96-CB21-4749-A8B9-81D8FEFE4502}"
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "QuestServ.Web(1)", "http://localhost:49586", "{34C8253A-7937-40C6-9E95-B57255815287}"
 	ProjectSection(WebsiteProperties) = preProject
 		UseIISExpress = "true"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_49586"
-		Debug.AspNetCompiler.PhysicalPath = "QuestServ.Web\"
+		Debug.AspNetCompiler.PhysicalPath = "Angular-WebAPI.Web\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49586\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/localhost_49586"
-		Release.AspNetCompiler.PhysicalPath = "QuestServ.Web\"
+		Release.AspNetCompiler.PhysicalPath = "Angular-WebAPI.Web\"
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49586\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		SlnRelativePath = "QuestServ.Web\"
+		SlnRelativePath = "Angular-WebAPI.Web\"
 	EndProjectSection
 EndProject
 Global
