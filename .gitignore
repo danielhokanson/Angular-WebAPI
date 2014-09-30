@@ -89,6 +89,10 @@ DocProject/Help/*.hhp
 DocProject/Help/Html2
 DocProject/Help/html
 
+# Node_Module and Bower_Components Direcories
+node_modules/*
+bower_components/*
+
 # Click-Once directory
 publish/
 
